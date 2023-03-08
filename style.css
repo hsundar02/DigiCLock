@@ -1,0 +1,108 @@
+body {
+    background: black;
+    color: white;
+}
+
+.Digiclock {
+    margin-top: 50px;
+}
+
+.dClock {
+    display: flex;
+    justify-content: center;
+}
+
+.outborder1 {
+    border: 1px solid #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.outborder2 {
+    border: 1px solid #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.outborder3 {
+    border: 1px solid #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.clocksec {
+    text-align: center;
+}
+
+.clocksec span {
+    padding: 3px 24px;
+}
+
+.datesec {
+    border: 1px solid grey;
+    margin: 2px 1px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+
+.clockContent {
+    text-align: center;
+}
+
+.clockContent span {
+    padding: 3px 8px;
+}
+
+.timeBox {
+    border: 1px solid grey;
+    margin: 2px 0px;
+    border-radius: 10px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 60px;
+}
+
+.sevenDays {
+    display: flex;
+    padding: 2px 4px;
+}
+
+.sevenDays span {
+    padding: 8px 10px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.daysec {
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 11px 13px;
+    position: relative;
+    top: -6px;
+    left: 6px;
+}
+
+.clock-zone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clock-zone span {
+    padding: 8px 10px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.zonesec {
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 11px 13px;
+    position: relative;
+}
+
+.active-days {
+    color: #000000;
+    background-color: rgb(255, 0, 0);
+}
